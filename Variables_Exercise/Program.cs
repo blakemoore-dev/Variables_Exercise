@@ -15,12 +15,8 @@ namespace Variables_Exercise
             decimal myDecimal = 300.003m;
 
             // Step 2:  Interpolate these variables in a Console.WriteLine():
-            Console.WriteLine($"myString : {myString}");
-            Console.WriteLine($"myInt : {myInt}");
-            Console.WriteLine($"myChar : {myChar}");
-            Console.WriteLine($"myBool : {myBool}");
-            Console.WriteLine($"myDouble : {myDouble}");
-            Console.WriteLine($"myDecimal : {myDecimal}");
+            Console.WriteLine("I declared and initialized the following variables with included values:");
+            Console.WriteLine($" myString: {myString},\n myInt: {myInt},\n myChar: {myChar},\n myBool: {myBool},\n myDouble: {myDouble},\n and myDecimal: {myDecimal}");
         }
     }
 }
